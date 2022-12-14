@@ -6,6 +6,7 @@ import matplotlib as plt
 import numpy as np
 import pandas as pd
 import math
+import plotly.express as px
 
 st.set_page_config(
     page_title="Proyecto",
