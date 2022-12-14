@@ -35,7 +35,7 @@ st.latex(r"f_x(X) = \frac{e^{-\lambda}\lambda^{x}}{x!} = P[X = x]")
 
 data = pd.read_csv("Info_clean_2.csv")
 
-st.markdown("Para este problema usaremos el dataset Info_clean_2.xlsx, que se puede descargar en el siguiente link")
+st.markdown("Para este problema usaremos el dataset Info_clean_2.csv, que se puede descargar en el siguiente link")
 
 
 with open("Info_clean_2.xlsx", "rb") as file:
