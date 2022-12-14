@@ -33,7 +33,7 @@ st_lottie(lottie_hello,speed = 1, reverse=False,loop=True,quality="low",height=6
 st.markdown("El modelo poisson es una herramienta de la probabilidad que tiene multiples uso en la medición de vida util de un evento, no obstante, esta distribucion también es usada para teimpos de espera en problemas de procesos estocasticos, en este proyecto se utilizará la distribución Poisson como herramienta de medición de calculo para obtener la probabilidad de que un equipo anote $X$ determinada cantidad de goles. ")
 st.latex(r"f_x(X) = \frac{e^{-\lambda}\lambda^{x}}{x!} = P[X = x]")
 
-data = pd.read_excel("Info_clean_2.xlsx")
+data = pd.read_excel("./Info_clean_2.xlsx")
 
 st.markdown("Para este problema usaremos el dataset Info_clean_2.xlsx, que se puede descargar en el siguiente link")
 
